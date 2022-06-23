@@ -1,0 +1,237 @@
+@media only screen and (max-width: 1370px) {
+    html {
+        font-size: 0.8vw;
+    }
+    .container {
+        width: 90%;
+    }
+    .rock_h1_h3_discover .button {
+        font-size: 1.6rem;
+    }
+    .h1_h3_button h3 {
+        margin-bottom: 3rem;
+    }
+    .forms {
+        margin-top: 7rem;
+        margin-bottom: 7rem;
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .container {
+        width: 80%;
+    }
+    ul {
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    html {
+        font-size: 1.2vw;
+    }
+    .container {
+        width: 80%;
+    }
+    ul {
+        width: 70%;
+    }
+    .rock_h1_h3_discover h1 {
+        font-size: 7.73rem;
+        margin-bottom: -2rem;
+    }
+    .rock_h1_h3_discover h3 {
+        font-size: 6rem;
+        margin-bottom: 1rem;
+    }
+    .rock_h1_h3_discover .button {
+        padding: 1.5rem 4rem;
+    }
+    .threepics a .member .bottom {
+        padding: .6vw 1vw;
+    }
+    .threepics a .member .bottom h5 {
+        font-size: 1.47rem;
+        letter-spacing: 1.3px;
+    }
+    .threepics a .member .bottom h6 {
+        font-size: 1.4rem;
+    }
+    .play {
+        width: 5.09vw;
+        height: 5.09vw;
+    }
+    table th, table td {
+        font-size: 2rem;
+        padding: 2.13rem 1.67rem;
+    }
+    .last ul li a {
+        font-size: 2rem;
+    }
+    .hide {
+        display: none;
+    }
+    .text .hide2 {
+        display: block;
+    }
+    .text .hide2 span {
+        font-family: none;
+        font-size: 2.6rem;
+    }
+}
+@media only screen and (max-width: 460px) {
+    html {
+        font-size: 0.95vw;
+    }
+    .container {
+        width: 95%;
+    }
+    ul {
+        display: none;
+    }
+    .h1_h3_button {
+        margin-top: 5vw;
+    }
+    .burger {
+        display: block;
+    }
+    .rock_h1_h3_discover .button {
+        font-size: 2.2rem;
+    }
+    .bottom {
+        display: flex;
+        justify-content: space-between;
+    }
+    .h5_h6_threepics > h5 {
+        font-size: 4.8rem;
+        margin-bottom: 0.39vw;
+    }
+    .h5_h6_threepics > h6 {
+        font-size: 5rem;
+        margin-bottom: 3.75vw;
+    }
+    .threepics a .member .bottom h5 {
+        font-size: 3.3rem;
+    }
+    .threepics a .member .bottom h6 {
+        font-size: 3rem;
+    }
+    table {
+        display: none;
+    }
+}
+@media only screen and (max-width: 424px) {
+    html {
+        font-size: 0.95vw;
+    }
+    .logo_ul ul {
+        display: none;
+    }
+    .container {
+        width: 95%;
+    }
+    .burger {
+        display: block;
+    }
+    .rock a img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    table {
+        display: none;
+    }
+    .bottom {
+        display: flex;
+        flex-direction: column;
+    }
+    .threepics {
+        display: flex;
+        flex-direction: column;
+    }
+    .threepics a .member .bottom h5 {
+        font-size: 5rem;
+    }
+    .threepics a .member .bottom h6 {
+        font-size: 4rem;
+    }
+    .threepics a {
+        width: 100%;
+        margin-bottom: 8rem;
+    }
+    footer .last ul {
+        display: none;
+    }
+    .h1_h3_button .button {
+        font-size: 3rem;
+    }
+    .h1_h3_button {
+        margin-top: 4rem;
+    }
+    .h1_h3_button h3 {
+        margin-bottom: 1rem;
+    }
+    .h5_h6_threepics h5 {
+        font-size: 5rem;
+    }
+    .h5_h6_threepics h6 {
+        font-size: 5rem;
+    }
+    .member .bottom h5 {
+        font-size: 8rem;
+    }
+    footer .text .hide2 {
+        display: block;
+        font-size: 4rem;
+    }
+    footer .text .hide2 span{
+        font-size: 8rem;
+        font-family: none;
+    }
+    footer .text .hide{
+        display: none;
+    }
+    form {
+        width: 100%;
+    }
+    .play {
+        width: 10vw;
+        height: 10vw;
+        position: absolute;
+        top: 35%;
+        left: 50%;
+    }
+    .text {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .videos .h1_h2 h1 {
+        font-size: 8rem;
+        letter-spacing: 9px;
+    }
+    .videos .h1_h2 h2 {
+        font-size: 8rem;
+        letter-spacing: 5px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    html {
+        font-size: 1.3vw;
+    }
+    .container {
+        width: 96%;
+    }
+    .h1_h3_button {
+        margin-top: 8rem;
+    }
+    .bottom {
+        display: flex;
+        /* აქ რატომ არ მუშაობს დისპლეი ფლექსი? */
+        flex-direction: row;
+        /* align-items: center; */
+    }
+    .play {
+        width: 14vw;
+        height: 14vw;
+    }
+}
